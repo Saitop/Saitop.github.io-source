@@ -1,0 +1,6 @@
+Title: The first abracadabra
+Category: Abracadabra
+Author: Hansun Lam    
+
+
+<p style="color:#900000"><strong>01001001 00100000 01101100 01101111 01110110 01100101 00100000 01001100 01101001 01111010 01111010 01101001 01100101</strong></p> 
