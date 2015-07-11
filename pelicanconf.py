@@ -48,14 +48,17 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['./pelican-plugins']
-PLUGINS = ['disqus_static']
+PLUGINS = [u"disqus_static"]
 
 DISQUS_SITENAME = u'hansunlam'
 DISQUS_SECRET_KEY = u'IXQ5ztYDjJ0U7lA5T3ijPxTSjEqTrJz94FeeJ2vNKgIchOblrhKfw0WKGuKwMuRb'
 DISQUS_PUBLIC_KEY = u'ttOxNBkhGeY88PnRA45P2IaeMVi1l9KScfqNgk2QDz5hB58SXhbY5Rrjl2s7LvE5'
 
-FILES_TO_COPY=(
-               ('extra/CNAME','CNAME'),
-               )
+EXTRA_PATH_METADATA = {
+    'extra/CNAME': {'path': 'CNAME'},
+}
+#FILES_TO_COPY=(
+#               ('extra/CNAME','CNAME'),
+#               )
 
 
